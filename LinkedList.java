@@ -73,10 +73,8 @@ public static void main(String[] args) {
         }
     }
 public void insertMiddle(int data,int pos) 
-    {    
-        //Create a new node    
+    {        
         Node newNode = new Node(data);    
-       //temporary node points to head node
         Node temp=head;
         if(pos==1)
         {
